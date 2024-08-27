@@ -146,6 +146,8 @@ h1.logo img{
 }
 .flex_wrap .image_wrap img{
     width:100%;
+    display: block;
+    max-width: 100%;
 }
 .flex_wrap .image_wrap img.img_iphone{
     width:320px;
@@ -158,6 +160,7 @@ h1.logo img{
     margin-left: -32px;
     transform: rotate(22.5deg);
     width:300px;
+    max-width: 50%;
 }
 .description > strong{
     display: block;
@@ -203,6 +206,7 @@ h2.tit_h2{
     background-color: #a5cad5;
     border-radius: 16px;
     padding: 16px;
+    max-width: 100%;
 }
 
 /* section_03 */
@@ -408,9 +412,11 @@ h2.tit_h2{
         margin-top: 55px;
         margin-bottom: -50px;
         width: 218px;
+        max-width: 80%;
     }
     .flex_wrap .image_wrap img.img_pixel{
         width: 218px;
+        max-width: 80%;
     }
     .flex_wrap,.flex_wrap.reverse{
         flex-direction: column;
